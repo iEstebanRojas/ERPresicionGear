@@ -1,13 +1,13 @@
-import { ListContainer } from "./components/ListContainer";
 import { NavBar } from "./components/NavBar";
+import ItemListContainer from "./components/ItemListContainer";
 
 function App() {
   return (
-  <>
-  <NavBar />
-  <ListContainer greetings="hi"/> 
-  </>
-  )
+    <>
+      <NavBar />
+      <ItemListContainer greeting="¡Welcome to ERPresicionGear!" /> 
+    </>
+  );
 }
 
 export default App;
