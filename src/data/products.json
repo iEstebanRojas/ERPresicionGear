@@ -1,0 +1,27 @@
+[
+    {
+      "id": 1,
+      "name": "Termómetro",
+      "category": "metrología",
+      "price": 50,
+      "image": "https://instrumentalia.com.ar/wp-content/uploads/2020/01/TERMOMETRO-BIMETALICO-AFRISO-INSTRUMENTALIA.jpg",
+      "description": "Termómetro digital de alta precisión para medir temperaturas."
+    },
+    {
+      "id": 2,
+      "name": "Caudalímetro",
+      "category": "metrología",
+      "price": 100,
+      "image": "https://www.contatec.es/wp-content/uploads/2019/11/Caudalimetro-Electromagnetico-EMI-40-Bridas.jpg",
+      "description": "Caudalímetro electromagnético para medir el flujo de líquidos."
+    },
+    {
+      "id": 3,
+      "name": "Transmisor de Presión",
+      "category": "metrología",
+      "price": 120,
+      "image": "https://www.dastecsrl.com.ar/uploads/productos/klay-instruments/dp-4000_transmisor-de-presion-diferencial_klay-instruments.png",
+      "description": "Transmisor de presión diferencial para mediciones precisas."
+    }
+  ]
+  
