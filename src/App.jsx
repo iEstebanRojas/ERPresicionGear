@@ -25,4 +25,4 @@ function App() {
   );
 }
 
-export default App; // Asegúrate de que esta línea sea la exportación por defecto
+export default App;
