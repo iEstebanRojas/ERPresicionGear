@@ -1,7 +1,5 @@
 import React from 'react';
-
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
-
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 import NavBar from './components/NavBar';
 import ItemListContainer from './components/ItemListContainer';
@@ -15,14 +13,14 @@ function App() {
   return (
     <Router>
       <NavBar />
-      <Switch>
-        <Route exact path="/" component={Home} />
-        <Route exact path="/category/:id" component={Products} />
-        <Route exact path="/item/:id" component={ProductDetail} />
-        <Route component={Error404} />
-      </Switch>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/category/:id" element={<Products />} />
+        <Route path="/item/:id" element={<ProductDetail />} />
+        <Route path="*" element={<Error404 />} />
+      </Routes>
     </Router>
   );
 }
 
-export default App; // Asegúrate de que esta línea sea la exportación por defecto
+export default App;
